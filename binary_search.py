@@ -15,6 +15,21 @@ def binary_search(list, target):
     return None
 
 
+def recursive_binary_search(list, target):
+    if len(list) == 0:
+        return False
+    else:
+        midpoint = len(list) // 2
+
+        if list[midpoint] == target:
+            return True
+        else:
+            if list[midpoint] < target:
+                return recursive_binary_search(list[midpoint + 1:], target)
+            else:
+                return recursive_binary_search(list[:midpoint], target)
+
+
 def verify(index):
     if index is not None:
         print("Target found at index: ", index)
@@ -28,4 +43,10 @@ result = binary_search(numbers, 12)
 verify(result)
 
 result = binary_search(numbers, 6)
+verify(result)
+
+result = recursive_binary_search(numbers, 12)
+verify(result)
+
+result = recursive_binary_search(numbers, 6)
 verify(result)
