@@ -1,2 +1,2 @@
 # PersonalProjects_Notes
-These projects and notes are for public eyes. It is to prove what I know and what I can do, this will also be linked to any resumes I send out. So, to any employers viewing this, welcome! between this and my resume I hope they prove the knowledge I have and I hope to hear back from you. Thank you.
+These projects and notes are for public eyes. It is to prove what I know and what I can do, this will also be linked to any resumes I send out. So, to any employers viewing this, welcome! between this and my resume I hope they prove the knowledge I have and I hope to hear back from you. Thank you. P.S. most of these will be written in Python... but I also know syntax for C-Like and Java. I also know a little HTML, CSS and Javascript.
